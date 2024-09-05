@@ -254,7 +254,6 @@ debug.renderengine.backend=skiaglthreaded
 debug.hwui.skia_atrace_enabled=true
 debug.composition.type=gpu
 ro.vendor.fps.switch.default=true
-ro.media.enc.jpeg.quality=80
 persist.sys.background_blur_version=2
 persist.sys.screen_anti_burn_enabled=true
 ro.miui.has_real_blur=1
