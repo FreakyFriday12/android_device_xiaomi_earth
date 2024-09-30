@@ -27,8 +27,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := Redmi/earth_global/earth:14/UP1A.231005.007/V816.0.2.0.UCVMIXM:user/release-keys
 
-# ril or fek
-TARGET_USES_MINI_GAPPS := true
+# fes anlok
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# memtener
+CIPHER_MAINTAINER := Ditya
 
 # Time
 LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
