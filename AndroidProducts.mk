@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_earth.mk
+    $(LOCAL_DIR)/cipher_earth.mk
