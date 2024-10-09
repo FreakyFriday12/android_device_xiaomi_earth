@@ -30,3 +30,8 @@ BUILD_FINGERPRINT := Redmi/earth_global/earth:14/UP1A.231005.007/V816.0.2.0.UCVM
 # Time
 LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
 
+# sigma skibidi
+CIPHER_GAPPS := true
+CHIPER_MAINTAINER := Ditya
+
+
