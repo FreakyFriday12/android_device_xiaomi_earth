@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_earth.mk
+    $(LOCAL_DIR)/aosp_earth.mk
