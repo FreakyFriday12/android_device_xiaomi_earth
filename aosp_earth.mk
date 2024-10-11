@@ -14,7 +14,7 @@ $(call inherit-product, device/xiaomi/earth/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/Project-Elixir/config/common_full_phone.mk)
 
-PRODUCT_NAME := cipher_earth
+PRODUCT_NAME := aosp_earth
 PRODUCT_DEVICE := earth
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
