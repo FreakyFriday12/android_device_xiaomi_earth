@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/earth/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/PixelOS/config/common_full_phone.mk)
+$(call inherit-product, vendor/PixelOS-AOSP/config/common_full_phone.mk)
 
 PRODUCT_NAME := aosp_earth
 PRODUCT_DEVICE := earth
