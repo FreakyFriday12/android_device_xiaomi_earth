@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/earth/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/PixelOS/config/common_full_phone.mk)
+$(call inherit-product, vendor/LineageOS/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_earth
+PRODUCT_NAME := cipher_earth
 PRODUCT_DEVICE := earth
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
@@ -29,6 +29,7 @@ BUILD_FINGERPRINT := Redmi/earth_global/earth:14/UP1A.231005.007/V816.0.2.0.UCVM
 
 # Time
 LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
+CIPHER_MAINTAINER := Ditya
 
 
 
