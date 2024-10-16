@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/earth/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/LineageOS/config/common_full_phone.mk)
+$(call inherit-product, vendor/CipherOS/config/common_full_phone.mk)
 
 PRODUCT_NAME := cipher_earth
 PRODUCT_DEVICE := earth
